@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD74F2C467ECB0089210A /* sfidaApp.swift */; };
+		752CD7522C467ECB0089210A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7512C467ECB0089210A /* ContentView.swift */; };
+		752CD7542C467ECE0089210A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752CD7532C467ECE0089210A /* Assets.xcassets */; };
+		752CD7582C467ECE0089210A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752CD7572C467ECE0089210A /* Preview Assets.xcassets */; };
+		752CD7622C467ECE0089210A /* sfidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7612C467ECE0089210A /* sfidaTests.swift */; };
+		752CD76C2C467ECE0089210A /* sfidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD76B2C467ECE0089210A /* sfidaUITests.swift */; };
+		752CD76E2C467ECE0089210A /* sfidaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD76D2C467ECE0089210A /* sfidaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		752CD75E2C467ECE0089210A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 752CD7442C467ECB0089210A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752CD74B2C467ECB0089210A;
+			remoteInfo = sfida;
+		};
+		752CD7682C467ECE0089210A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 752CD7442C467ECB0089210A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752CD74B2C467ECB0089210A;
+			remoteInfo = sfida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		752CD74C2C467ECB0089210A /* sfida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sfida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		752CD74F2C467ECB0089210A /* sfidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaApp.swift; sourceTree = "<group>"; };
+		752CD7512C467ECB0089210A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		752CD7532C467ECE0089210A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		752CD7552C467ECE0089210A /* sfida.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sfida.entitlements; sourceTree = "<group>"; };
+		752CD7572C467ECE0089210A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		752CD75D2C467ECE0089210A /* sfidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sfidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		752CD7612C467ECE0089210A /* sfidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaTests.swift; sourceTree = "<group>"; };
+		752CD7672C467ECE0089210A /* sfidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sfidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		752CD76B2C467ECE0089210A /* sfidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaUITests.swift; sourceTree = "<group>"; };
+		752CD76D2C467ECE0089210A /* sfidaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		752CD7492C467ECB0089210A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752CD75A2C467ECE0089210A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752CD7642C467ECE0089210A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752CD7432C467ECB0089210A = {
+			isa = PBXGroup;
+			children = (
+				752CD74E2C467ECB0089210A /* sfida */,
+				752CD7602C467ECE0089210A /* sfidaTests */,
+				752CD76A2C467ECE0089210A /* sfidaUITests */,
+				752CD74D2C467ECB0089210A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		752CD74D2C467ECB0089210A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				752CD74C2C467ECB0089210A /* sfida.app */,
+				752CD75D2C467ECE0089210A /* sfidaTests.xctest */,
+				752CD7672C467ECE0089210A /* sfidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		752CD74E2C467ECB0089210A /* sfida */ = {
+			isa = PBXGroup;
+			children = (
+				752CD74F2C467ECB0089210A /* sfidaApp.swift */,
+				752CD7512C467ECB0089210A /* ContentView.swift */,
+				752CD7532C467ECE0089210A /* Assets.xcassets */,
+				752CD7552C467ECE0089210A /* sfida.entitlements */,
+				752CD7562C467ECE0089210A /* Preview Content */,
+			);
+			path = sfida;
+			sourceTree = "<group>";
+		};
+		752CD7562C467ECE0089210A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				752CD7572C467ECE0089210A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		752CD7602C467ECE0089210A /* sfidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				752CD7612C467ECE0089210A /* sfidaTests.swift */,
+			);
+			path = sfidaTests;
+			sourceTree = "<group>";
+		};
+		752CD76A2C467ECE0089210A /* sfidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				752CD76B2C467ECE0089210A /* sfidaUITests.swift */,
+				752CD76D2C467ECE0089210A /* sfidaUITestsLaunchTests.swift */,
+			);
+			path = sfidaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		752CD74B2C467ECB0089210A /* sfida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752CD7712C467ECE0089210A /* Build configuration list for PBXNativeTarget "sfida" */;
+			buildPhases = (
+				752CD7482C467ECB0089210A /* Sources */,
+				752CD7492C467ECB0089210A /* Frameworks */,
+				752CD74A2C467ECB0089210A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sfida;
+			productName = sfida;
+			productReference = 752CD74C2C467ECB0089210A /* sfida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		752CD75C2C467ECE0089210A /* sfidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752CD7742C467ECE0089210A /* Build configuration list for PBXNativeTarget "sfidaTests" */;
+			buildPhases = (
+				752CD7592C467ECE0089210A /* Sources */,
+				752CD75A2C467ECE0089210A /* Frameworks */,
+				752CD75B2C467ECE0089210A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752CD75F2C467ECE0089210A /* PBXTargetDependency */,
+			);
+			name = sfidaTests;
+			productName = sfidaTests;
+			productReference = 752CD75D2C467ECE0089210A /* sfidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		752CD7662C467ECE0089210A /* sfidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752CD7772C467ECE0089210A /* Build configuration list for PBXNativeTarget "sfidaUITests" */;
+			buildPhases = (
+				752CD7632C467ECE0089210A /* Sources */,
+				752CD7642C467ECE0089210A /* Frameworks */,
+				752CD7652C467ECE0089210A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752CD7692C467ECE0089210A /* PBXTargetDependency */,
+			);
+			name = sfidaUITests;
+			productName = sfidaUITests;
+			productReference = 752CD7672C467ECE0089210A /* sfidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		752CD7442C467ECB0089210A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					752CD74B2C467ECB0089210A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					752CD75C2C467ECE0089210A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 752CD74B2C467ECB0089210A;
+					};
+					752CD7662C467ECE0089210A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 752CD74B2C467ECB0089210A;
+					};
+				};
+			};
+			buildConfigurationList = 752CD7472C467ECB0089210A /* Build configuration list for PBXProject "sfida" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 752CD7432C467ECB0089210A;
+			productRefGroup = 752CD74D2C467ECB0089210A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				752CD74B2C467ECB0089210A /* sfida */,
+				752CD75C2C467ECE0089210A /* sfidaTests */,
+				752CD7662C467ECE0089210A /* sfidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		752CD74A2C467ECB0089210A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752CD7582C467ECE0089210A /* Preview Assets.xcassets in Resources */,
+				752CD7542C467ECE0089210A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752CD75B2C467ECE0089210A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752CD7652C467ECE0089210A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		752CD7482C467ECB0089210A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752CD7522C467ECB0089210A /* ContentView.swift in Sources */,
+				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752CD7592C467ECE0089210A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752CD7622C467ECE0089210A /* sfidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752CD7632C467ECE0089210A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752CD76E2C467ECE0089210A /* sfidaUITestsLaunchTests.swift in Sources */,
+				752CD76C2C467ECE0089210A /* sfidaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		752CD75F2C467ECE0089210A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752CD74B2C467ECB0089210A /* sfida */;
+			targetProxy = 752CD75E2C467ECE0089210A /* PBXContainerItemProxy */;
+		};
+		752CD7692C467ECE0089210A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752CD74B2C467ECB0089210A /* sfida */;
+			targetProxy = 752CD7682C467ECE0089210A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		752CD76F2C467ECE0089210A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		752CD7702C467ECE0089210A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		752CD7722C467ECE0089210A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sfida/sfida.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sfida/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safasdf.sfida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		752CD7732C467ECE0089210A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sfida/sfida.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sfida/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safasdf.sfida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		752CD7752C467ECE0089210A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safasdf.sfidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sfida.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sfida";
+			};
+			name = Debug;
+		};
+		752CD7762C467ECE0089210A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safasdf.sfidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sfida.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sfida";
+			};
+			name = Release;
+		};
+		752CD7782C467ECE0089210A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safasdf.sfidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sfida;
+			};
+			name = Debug;
+		};
+		752CD7792C467ECE0089210A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safasdf.sfidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sfida;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		752CD7472C467ECB0089210A /* Build configuration list for PBXProject "sfida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752CD76F2C467ECE0089210A /* Debug */,
+				752CD7702C467ECE0089210A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752CD7712C467ECE0089210A /* Build configuration list for PBXNativeTarget "sfida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752CD7722C467ECE0089210A /* Debug */,
+				752CD7732C467ECE0089210A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752CD7742C467ECE0089210A /* Build configuration list for PBXNativeTarget "sfidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752CD7752C467ECE0089210A /* Debug */,
+				752CD7762C467ECE0089210A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752CD7772C467ECE0089210A /* Build configuration list for PBXNativeTarget "sfidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752CD7782C467ECE0089210A /* Debug */,
+				752CD7792C467ECE0089210A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 752CD7442C467ECB0089210A /* Project object */;
+}
