@@ -20,7 +20,7 @@ struct HomeView : View {
                     .background(Color.white)
                 Spacer()
                 
-                ScrollView{
+                ScrollView(showsIndicators: false){
                     if selectedIndex != 2{
                         LazyVGrid(columns: columns) {
                             ForEach((0..<6), id: \.self) { count in
@@ -29,17 +29,12 @@ struct HomeView : View {
                         }
                     }else{
                         ForEach((0..<3),id: \.self){count in
-                            SuccessPostCell(userName: "이다경", content: "내용입니다.")
+                            SuccessPostCell(userName: "이다경", content: "안녕하세요~ 페트병 재활용 기계 직접 사용해 보았답니다~!!어려운 챌린지 미션이였는데 저는 성공했네요^^ 다들 즐거운 하루 보내세요 ㅎ")
                         }
-                        
                     }
                 }
                 
             }
-            .onChange(of:selectedIndex) {newValue in
-                print(newValue)
-            }
-
         }
     }
 }

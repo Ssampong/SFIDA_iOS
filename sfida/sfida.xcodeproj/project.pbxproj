@@ -20,6 +20,7 @@
 		752CD7852C46887D0089210A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7842C46887D0089210A /* HomeView.swift */; };
 		752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7862C468AA70089210A /* SfidaTabView.swift */; };
 		75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */; };
+		75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		752CD7842C46887D0089210A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		752CD7862C468AA70089210A /* SfidaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfidaTabView.swift; sourceTree = "<group>"; };
 		75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPostCell.swift; sourceTree = "<group>"; };
+		75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChallengeView.swift; path = sfida/UI/Home/Component/ChallengeView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		752CD77A2C467F9B0089210A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				75D5BFB42C469B23009AFEA2 /* Challenge */,
 				752CD77B2C467FA20089210A /* Home */,
 			);
 			path = UI;
@@ -177,6 +180,14 @@
 				752CD7802C46815D0089210A /* ColorExt.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		75D5BFB42C469B23009AFEA2 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */,
+			);
+			path = Challenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +325,7 @@
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
 				752CD7852C46887D0089210A /* HomeView.swift in Sources */,
 				752CD77E2C4680660089210A /* PostCell.swift in Sources */,
+				75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */,
 				752CD7832C4682F40089210A /* HomeHeader.swift in Sources */,
 				752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */,
 				75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */,
