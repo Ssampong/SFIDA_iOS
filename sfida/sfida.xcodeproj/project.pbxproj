@@ -14,6 +14,8 @@
 		752CD7622C467ECE0089210A /* sfidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7612C467ECE0089210A /* sfidaTests.swift */; };
 		752CD76C2C467ECE0089210A /* sfidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD76B2C467ECE0089210A /* sfidaUITests.swift */; };
 		752CD76E2C467ECE0089210A /* sfidaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD76D2C467ECE0089210A /* sfidaUITestsLaunchTests.swift */; };
+		752CD77E2C4680660089210A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD77D2C4680660089210A /* PostCell.swift */; };
+		752CD7812C46815D0089210A /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7802C46815D0089210A /* ColorExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		752CD7672C467ECE0089210A /* sfidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sfidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752CD76B2C467ECE0089210A /* sfidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaUITests.swift; sourceTree = "<group>"; };
 		752CD76D2C467ECE0089210A /* sfidaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		752CD77D2C4680660089210A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		752CD7802C46815D0089210A /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		752CD74E2C467ECB0089210A /* sfida */ = {
 			isa = PBXGroup;
 			children = (
+				752CD77F2C4681440089210A /* Util */,
+				752CD77A2C467F9B0089210A /* UI */,
 				752CD74F2C467ECB0089210A /* sfidaApp.swift */,
 				752CD7512C467ECB0089210A /* ContentView.swift */,
 				752CD7532C467ECE0089210A /* Assets.xcassets */,
@@ -127,6 +133,38 @@
 				752CD76D2C467ECE0089210A /* sfidaUITestsLaunchTests.swift */,
 			);
 			path = sfidaUITests;
+			sourceTree = "<group>";
+		};
+		752CD77A2C467F9B0089210A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				752CD77B2C467FA20089210A /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		752CD77B2C467FA20089210A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				752CD77C2C467FA90089210A /* Component */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		752CD77C2C467FA90089210A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				752CD77D2C4680660089210A /* PostCell.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		752CD77F2C4681440089210A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				752CD7802C46815D0089210A /* ColorExt.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752CD7812C46815D0089210A /* ColorExt.swift in Sources */,
 				752CD7522C467ECB0089210A /* ContentView.swift in Sources */,
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
+				752CD77E2C4680660089210A /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
