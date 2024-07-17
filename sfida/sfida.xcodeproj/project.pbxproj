@@ -36,6 +36,8 @@
 		7550D3B62C47C3A5005EBF61 /* SignInHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3B42C47C3A5005EBF61 /* SignInHead.swift */; };
 		7550D3B82C47D243005EBF61 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3B72C47D243005EBF61 /* ImagePicker.swift */; };
 		7550D3BA2C47E042005EBF61 /* ChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3B92C47E042005EBF61 /* ChallengeViewModel.swift */; };
+		7550D3BD2C47E3CF005EBF61 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7550D3BC2C47E3CF005EBF61 /* Alamofire */; };
+		7550D3BF2C47E3CF005EBF61 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7550D3BE2C47E3CF005EBF61 /* AlamofireDynamic */; };
 		75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */; };
 		75BFBC1E2C475793009305F9 /* UserChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1D2C475792009305F9 /* UserChallengeView.swift */; };
 		75BFBC212C47617A009305F9 /* createPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC202C47617A009305F9 /* createPostView.swift */; };
@@ -106,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7550D3BD2C47E3CF005EBF61 /* Alamofire in Frameworks */,
+				7550D3BF2C47E3CF005EBF61 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +173,10 @@
 		752CD74E2C467ECB0089210A /* sfida */ = {
 			isa = PBXGroup;
 			children = (
-				752CD77F2C4681440089210A /* Util */,
 				752CD77A2C467F9B0089210A /* UI */,
 				752CD74F2C467ECB0089210A /* sfidaApp.swift */,
 				752CD7512C467ECB0089210A /* ContentView.swift */,
+				752CD77F2C4681440089210A /* Util */,
 				752CD7532C467ECE0089210A /* Assets.xcassets */,
 				752CD7552C467ECE0089210A /* sfida.entitlements */,
 				752CD7562C467ECE0089210A /* Preview Content */,
@@ -346,6 +350,10 @@
 			dependencies = (
 			);
 			name = sfida;
+			packageProductDependencies = (
+				7550D3BC2C47E3CF005EBF61 /* Alamofire */,
+				7550D3BE2C47E3CF005EBF61 /* AlamofireDynamic */,
+			);
 			productName = sfida;
 			productReference = 752CD74C2C467ECB0089210A /* sfida.app */;
 			productType = "com.apple.product-type.application";
@@ -857,6 +865,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7550D3BC2C47E3CF005EBF61 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7550D3BB2C47E147005EBF61 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7550D3BE2C47E3CF005EBF61 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7550D3BB2C47E147005EBF61 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 752CD7442C467ECB0089210A /* Project object */;
 }

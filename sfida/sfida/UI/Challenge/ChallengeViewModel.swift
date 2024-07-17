@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import Alamofire
 
 @MainActor
 class DiaryViewModel: ObservableObject {
@@ -27,3 +27,4 @@ class DiaryViewModel: ObservableObject {
 //        }
 //    }
 }
+
