@@ -10,10 +10,16 @@ import SwiftUI
 
 struct OnBoardingView: View {
     var body: some View {
-        NavigationView {
-            VStack {
-                Image("SFIDALogo")
-                
+        NavigationView{
+            ZStack {
+                Color.black.edgesIgnoringSafeArea(.all)
+                VStack {
+                    Spacer()
+                    Image("SFIDALogo")
+                    Spacer()
+                    OnBoardingButton()
+                }
+                .padding(.bottom,20)
             }
         }
     }

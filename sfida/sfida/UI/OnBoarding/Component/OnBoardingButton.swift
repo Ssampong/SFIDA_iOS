@@ -23,11 +23,14 @@ struct OnBoardingButton: View {
             NavigationLink(destination: SignUpView()) {
                 Text("회원가입")
                     .foregroundStyle(Color.Main)
-                    .padding(.horizontal, 135)
+                    .padding(.horizontal, 129)
                     .padding(.vertical)
                     .background(.white)
                     .cornerRadius(10)
-                    .border(Color.Main)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color.Main, lineWidth: 1)
+                          )
             }
         }
         .font(.system(size: 15))

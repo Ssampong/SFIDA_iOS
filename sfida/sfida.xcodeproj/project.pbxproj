@@ -64,6 +64,7 @@
 		AF1B99122C46A2D80010C09A /* SignInHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHead.swift; sourceTree = "<group>"; };
 		AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		AFE53F9A2C47683900CEEAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AFECDD312C475BC700461B6B /* SignUpHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpHead.swift; sourceTree = "<group>"; };
 		AFECDD382C47628800461B6B /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		AFECDD3B2C47636800461B6B /* OnBoardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingButton.swift; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 		752CD74E2C467ECB0089210A /* sfida */ = {
 			isa = PBXGroup;
 			children = (
+				AFE53F9A2C47683900CEEAC1 /* Info.plist */,
 				752CD77F2C4681440089210A /* Util */,
 				752CD77A2C467F9B0089210A /* UI */,
 				752CD74F2C467ECB0089210A /* sfidaApp.swift */,
@@ -530,6 +532,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sfida/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sfida/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -566,6 +569,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sfida/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sfida/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
