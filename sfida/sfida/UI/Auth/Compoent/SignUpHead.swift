@@ -1,14 +1,14 @@
 //
-//  SignInHead.swift
+//  SignUpHead.swift
 //  sfida
 //
-//  Created by 이다경 on 7/16/24.
+//  Created by 이다경 on 7/17/24.
 //
 
 import Foundation
 import SwiftUI
 
-struct SignInHead: View {
+struct SignUpHead: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -17,7 +17,7 @@ struct SignInHead: View {
                 HStack {
                     Image(systemName: "chevron.backward")
                         .font(.system(size: 25))
-                    Text("로그인")
+                    Text("회원가입")
                         .fontWeight(.heavy)
                         .font(.system(size: 25))
                 }
@@ -29,7 +29,6 @@ struct SignInHead: View {
     }
 }
 
-
 #Preview {
-    SignInHead()
+    SignUpHead()
 }
