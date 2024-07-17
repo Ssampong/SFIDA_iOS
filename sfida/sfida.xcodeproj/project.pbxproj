@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750AF3662C47892E00C677AB /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF3652C47892E00C677AB /* ShopView.swift */; };
+		750AF3692C478BB100C677AB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF3682C478BB100C677AB /* ProductCell.swift */; };
+		750AF36B2C4791E000C677AB /* ShopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF36A2C4791E000C677AB /* ShopDetailView.swift */; };
+		750AF36D2C47942100C677AB /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF36C2C47942100C677AB /* ProductDetailView.swift */; };
 		752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD74F2C467ECB0089210A /* sfidaApp.swift */; };
 		752CD7522C467ECB0089210A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7512C467ECB0089210A /* ContentView.swift */; };
 		752CD7542C467ECE0089210A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752CD7532C467ECE0089210A /* Assets.xcassets */; };
@@ -44,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		750AF3652C47892E00C677AB /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		750AF3682C478BB100C677AB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		750AF36A2C4791E000C677AB /* ShopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailView.swift; sourceTree = "<group>"; };
+		750AF36C2C47942100C677AB /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		752CD74C2C467ECB0089210A /* sfida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sfida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752CD74F2C467ECB0089210A /* sfidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaApp.swift; sourceTree = "<group>"; };
 		752CD7512C467ECB0089210A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		750AF3642C47891A00C677AB /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				750AF3672C478A2200C677AB /* Component */,
+				750AF3652C47892E00C677AB /* ShopView.swift */,
+				750AF36A2C4791E000C677AB /* ShopDetailView.swift */,
+				750AF36C2C47942100C677AB /* ProductDetailView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		750AF3672C478A2200C677AB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				750AF3682C478BB100C677AB /* ProductCell.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		752CD7432C467ECB0089210A = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +181,7 @@
 		752CD77A2C467F9B0089210A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				750AF3642C47891A00C677AB /* Shop */,
 				75D5BFB42C469B23009AFEA2 /* Challenge */,
 				752CD77B2C467FA20089210A /* Home */,
 			);
@@ -338,14 +366,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				75BFBC1E2C475793009305F9 /* UserChallengeView.swift in Sources */,
+				750AF36D2C47942100C677AB /* ProductDetailView.swift in Sources */,
 				752CD7812C46815D0089210A /* ColorExt.swift in Sources */,
 				752CD7522C467ECB0089210A /* ContentView.swift in Sources */,
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
 				752CD7852C46887D0089210A /* HomeView.swift in Sources */,
+				750AF3692C478BB100C677AB /* ProductCell.swift in Sources */,
+				750AF36B2C4791E000C677AB /* ShopDetailView.swift in Sources */,
 				752CD77E2C4680660089210A /* PostCell.swift in Sources */,
 				75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */,
 				752CD7832C4682F40089210A /* HomeHeader.swift in Sources */,
 				75BFBC212C47617A009305F9 /* createPostView.swift in Sources */,
+				750AF3662C47892E00C677AB /* ShopView.swift in Sources */,
 				752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */,
 				75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */,
 				75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */,

@@ -20,7 +20,7 @@ struct SfidaTabView : View {
                     Image(systemName: "house")
                     Text("홈")
                 }
-            Text("The Last Tab")
+            ShopView(selectedIndex: 0)
                 .tabItem {
                     Image(systemName: "creditcard")
                     Text("포인트")
