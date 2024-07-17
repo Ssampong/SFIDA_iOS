@@ -55,6 +55,7 @@ struct CreateChallenge: View {
                 .padding(.leading,20)
             }
         .navigationBarBackButtonHidden(true)
+        .toolbar(.hidden, for: .tabBar)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading){
                 Button {

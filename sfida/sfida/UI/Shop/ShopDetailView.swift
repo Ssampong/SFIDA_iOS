@@ -55,6 +55,7 @@ struct ShopDetailView: View {
                 
             }
         }
+        .toolbar(.hidden, for: .tabBar)
         .navigationBarBackButtonHidden()
         .navigationTitle("상점")
         .toolbar{

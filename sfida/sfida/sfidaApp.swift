@@ -11,7 +11,7 @@ import SwiftUI
 struct sfidaApp: App {
     var body: some Scene {
         WindowGroup {
-            ChallengeView(searchText: "")
+            SfidaTabView()
         }
     }
 }

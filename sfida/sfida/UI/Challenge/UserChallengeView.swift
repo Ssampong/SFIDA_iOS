@@ -72,6 +72,7 @@ struct UserChallengeView: View {
                 .ignoresSafeArea()
             }
         .navigationBarBackButtonHidden()
+        .toolbar(.hidden, for: .tabBar)
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading){
                 Button {

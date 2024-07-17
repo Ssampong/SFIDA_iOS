@@ -56,6 +56,7 @@ struct ProductDetailView: View {
                 })
             }
         }
+        .toolbar(.hidden, for: .tabBar)
         .navigationBarBackButtonHidden()
         .navigationTitle("보관함")
         .toolbar{
