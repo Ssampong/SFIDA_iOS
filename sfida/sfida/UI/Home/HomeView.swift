@@ -27,7 +27,7 @@ struct HomeView : View {
                                 NavigationLink {
                                     UserChallengeView(title: "탄소 줄이기 운동!", id: 1)
                                 } label: {
-                                    PostCell(title: "이다경 바보", imageUrl: "hello")
+                                    PostCell(title: "이다경 바보", imageUrl: "Image")
                                 }
                             }
                         }

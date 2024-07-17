@@ -13,7 +13,7 @@ struct ChallengeResponse: Decodable{
     let content: String
     let image_path: String
     let imagePath: String
-    let certifications: [certification]
+    let certifications, notices: [certification]
 }
 struct certification: Decodable{
     let id: Int
