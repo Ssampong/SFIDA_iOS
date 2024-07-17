@@ -57,7 +57,7 @@ struct CreateChallengeView: View {
                 })
             }
             
-            VStack(alignment:.center,spacing: 10){
+            VStack(alignment:.center){
                 Text("챌린지 설명")
                     .bold()
                     .font(.system(size: 17))
@@ -69,14 +69,33 @@ struct CreateChallengeView: View {
                         .frame(alignment: .center)
                         .font(.system(size: 14))
                         .multilineTextAlignment(.center)
-                        .padding(.top,20)
                     
                     Text("챌린지 설명 입력")
                         .font(.system(size: 14))
                         .foregroundStyle(content.isEmpty ? .gray : .clear)
-                        .padding(.bottom,355)
+                        .padding(.bottom,280)
+                        .padding(.top,10)
                 }
             }
+            
+            Button(action: {
+                self.presentationMode.wrappedValue.dismiss()
+
+            }, label: {
+                Rectangle()
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .cornerRadius(10)
+                    .padding(.horizontal,10)
+                    .foregroundColor(Color.Main)
+                    .overlay{
+                        Text("확인")
+                            .font(.system(size: 15,weight: .heavy))
+                            .foregroundColor(.white)
+                    }
+                    .padding(.vertical,25)
+
+            })
         }
         .sheet(isPresented: $openPhoto,onDismiss: {
 //            Task{

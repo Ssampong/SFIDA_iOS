@@ -120,13 +120,14 @@ struct CreateChallenge: View {
                 }
             }
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {
-                    
-                }, label: {
+                Button{
+                    self.presentationMode.wrappedValue.dismiss()
+
+                }label: {
                     Text("완료")
                         .font(.system(size: 16))
                         .foregroundStyle(Color.gray3)
-                })
+                }
             }
         }
     }
