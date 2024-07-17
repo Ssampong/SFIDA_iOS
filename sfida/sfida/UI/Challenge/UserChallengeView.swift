@@ -10,7 +10,7 @@ import SwiftUI
 struct UserChallengeView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     let title: String
-    @State var isOutsider = true
+    @State var isOutsider = false
     @State var isOrganizer = false
     var body: some View {
             ZStack{
@@ -61,9 +61,12 @@ struct UserChallengeView: View {
                         }
                     
                     ScrollView(showsIndicators: false){
-                        ForEach((0..<3),id: \.self){count in
-                            SuccessPostCell(userName: "이다경", content: "안녕하세요~ 페트병 재활용 기계 직접 사용해 보았답니다~!!어려운 챌린지 미션이였는데 저는 성공했네요^^ 다들 즐거운 하루 보내세요 ㅎ", type:.success)
-                        }
+                        SuccessPostCell(userName: "주최자", content: "안녕하세요. 여러분 새로운 챌린지 미션입니다! 플라스틱 병 깨끗히 소독 후 플라스틱에 버리는 인증글을 올려주시면 성공 처리 해드리겠습니다.", type:.notice)
+                        SuccessPostCell(userName: "이다경", content: "안녕하세요~ 페트병 재활용 기계 직접 사용해 보았답니다~!!어려운 챌린지 미션이였는데 저는 성공했네요^^ 다들 즐거운 하루 보내세요 ㅎ", type:.success)
+                        SuccessPostCell(userName: "이다경", content: "안녕하세요~ 페트병 재활용 기계 직접 사용해 보았답니다~!!어려운 챌린지 미션이였는데 저는 성공했네요^^ 다들 즐거운 하루 보내세요 ㅎ", type:.base)
+//                        ForEach((0..<1),id: \.self){count in
+//                            SuccessPostCell(userName: "이다경", content: "안녕하세요~ 페트병 재활용 기계 직접 사용해 보았답니다~!!어려운 챌린지 미션이였는데 저는 성공했네요^^ 다들 즐거운 하루 보내세요 ㅎ", type:.success)
+//                        }
                     }
                     
                     Spacer()

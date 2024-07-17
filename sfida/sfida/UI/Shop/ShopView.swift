@@ -11,6 +11,7 @@ struct ShopView: View {
     @State var selectedIndex: Int
     let columns = [GridItem(.fixed(180)),
                    GridItem(.fixed(180))]
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     var body: some View {
         ZStack{
             Color.BackgroundColor.edgesIgnoringSafeArea(.all)
@@ -75,16 +76,16 @@ struct ShopView: View {
                         ForEach((0..<1), id: \.self) { count in
                             NavigationLink {
                                 if selectedIndex == 1{
-                                    ShopDetailView(type: .used)
-                                }else{
                                     ProductDetailView()
+                                }else{
+                                    ShopDetailView(type: .used)
                                 }
                             } label: {
                                 if selectedIndex == 1{
-                                    ProductCell(type: .used)
-                                        .padding(5)
+                                    ShopCell()
+                                    .padding(5)
                                 }else{
-                                    ProductCell(type: .base)
+                                    ProductCell(type: .used)
                                         .padding(5)
                                 }
                                 

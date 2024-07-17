@@ -33,8 +33,7 @@ struct SfidaTabView : View {
                         Image(systemName: "creditcard")
                         Text("포인트")
                     }
-                
-                Text("The Last Tab")
+                ProfileView()
                     .tabItem {
                         Image(systemName: "person")
                         Text("프로필")

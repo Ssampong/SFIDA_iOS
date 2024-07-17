@@ -57,7 +57,7 @@ struct ShopDetailView: View {
         }
         .toolbar(.hidden, for: .tabBar)
         .navigationBarBackButtonHidden()
-        .navigationTitle("상점")
+        .navigationTitle("보관함")
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading){
                 Button {

@@ -21,7 +21,7 @@ struct SuccessPostCell : View {
             Color.BackgroundColor.edgesIgnoringSafeArea(.all)
             
             Rectangle()
-                .foregroundColor(type == .base ? .white : .blue0)
+                .foregroundColor(type == .base  || type == .notice ? .white : .blue0)
                 .frame(height: type != .notice ? 370 : 120)
                 .frame(maxWidth: .infinity)
                 .cornerRadius(10)

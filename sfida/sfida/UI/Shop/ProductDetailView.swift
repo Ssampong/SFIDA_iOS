@@ -26,7 +26,7 @@ struct ProductDetailView: View {
                             .font(.system(size: 23,weight: .semibold))
                             .foregroundStyle(.black)
                         
-                        Text("11,200원")
+                        Text("11,200 포인트")
                             .font(.system(size: 20,weight: .semibold))
                             .foregroundStyle(.black)
                             .padding(.top,20)
@@ -58,7 +58,7 @@ struct ProductDetailView: View {
         }
         .toolbar(.hidden, for: .tabBar)
         .navigationBarBackButtonHidden()
-        .navigationTitle("보관함")
+        .navigationTitle("상점")
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading){
                 Button {
