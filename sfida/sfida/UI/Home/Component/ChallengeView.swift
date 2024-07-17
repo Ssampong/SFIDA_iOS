@@ -57,6 +57,7 @@ struct ChallengeView: View {
                             }
                             
                         }
+                        .background(Color.white)
                     Spacer()
                     
                     ScrollView(showsIndicators: false){
