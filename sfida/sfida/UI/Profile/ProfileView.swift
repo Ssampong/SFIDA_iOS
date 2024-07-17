@@ -25,7 +25,7 @@ struct ProfileView: View {
                             HStack {
                                 Image("testprofile")
                                 Spacer()
-                                NavigationLink(destination: ProfileUpdateView()) {
+                                NavigationLink(destination: OnBoardingView()) {
                                     Image(systemName: "pencil")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)

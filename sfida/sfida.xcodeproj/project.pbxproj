@@ -23,7 +23,6 @@
 		AF61096E2C478C7800202C76 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61096D2C478C7800202C76 /* ProfileImage.swift */; };
 		AF6109702C478E1D00202C76 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61096F2C478E1D00202C76 /* ProfileView.swift */; };
 		AF6109722C47920900202C76 /* ProfileUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6109712C47920900202C76 /* ProfileUpdateView.swift */; };
-		AF6109742C479AC000202C76 /* ProfileUpdateHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6109732C479AC000202C76 /* ProfileUpdateHead.swift */; };
 		AF62C2192C4788AE00409B09 /* Launch ScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF62C2182C4788AE00409B09 /* Launch ScreenView.storyboard */; };
 		AFBA92DA2C46990F00DA5CB9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */; };
 		AFBA92DC2C46991F00DA5CB9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */; };
@@ -70,7 +69,6 @@
 		AF61096D2C478C7800202C76 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		AF61096F2C478E1D00202C76 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AF6109712C47920900202C76 /* ProfileUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUpdateView.swift; sourceTree = "<group>"; };
-		AF6109732C479AC000202C76 /* ProfileUpdateHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUpdateHead.swift; sourceTree = "<group>"; };
 		AF62C2182C4788AE00409B09 /* Launch ScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch ScreenView.storyboard"; sourceTree = "<group>"; };
 		AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				AF61096D2C478C7800202C76 /* ProfileImage.swift */,
-				AF6109732C479AC000202C76 /* ProfileUpdateHead.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -404,7 +401,6 @@
 				AFECDD3C2C47636800461B6B /* OnBoardingButton.swift in Sources */,
 				AFECDD322C475BC700461B6B /* SignUpHead.swift in Sources */,
 				752CD7522C467ECB0089210A /* ContentView.swift in Sources */,
-				AF6109742C479AC000202C76 /* ProfileUpdateHead.swift in Sources */,
 				AF1B99132C46A2D80010C09A /* SignInHead.swift in Sources */,
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
 				AF6109702C478E1D00202C76 /* ProfileView.swift in Sources */,
