@@ -34,7 +34,7 @@ struct ProfileView: View {
                         }
                         .padding(.bottom, 30)
                         
-                        Text("닉네임")
+                      Text("닉네임")
                             .font(.system(size: 30, weight: .black))
                         Text("아이디")
                             .font(.system(size: 18))

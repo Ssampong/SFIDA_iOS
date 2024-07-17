@@ -27,6 +27,15 @@
 		7550D3972C47AE60005EBF61 /* ProfileUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3952C47AE60005EBF61 /* ProfileUpdateView.swift */; };
 		7550D3982C47AE60005EBF61 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3962C47AE60005EBF61 /* ProfileView.swift */; };
 		7550D39A2C47B0FF005EBF61 /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3992C47B0FF005EBF61 /* ShopCell.swift */; };
+		7550D3A22C47C1AA005EBF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7550D3A12C47C1AA005EBF61 /* LaunchScreen.storyboard */; };
+		7550D3A92C47C367005EBF61 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3A82C47C367005EBF61 /* OnBoardingView.swift */; };
+		7550D3AC2C47C379005EBF61 /* OnBoardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3AB2C47C379005EBF61 /* OnBoardingButton.swift */; };
+		7550D3B02C47C394005EBF61 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3AE2C47C393005EBF61 /* SignUpView.swift */; };
+		7550D3B12C47C394005EBF61 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3AF2C47C394005EBF61 /* SignInView.swift */; };
+		7550D3B52C47C3A5005EBF61 /* SignUpHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3B32C47C3A4005EBF61 /* SignUpHead.swift */; };
+		7550D3B62C47C3A5005EBF61 /* SignInHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3B42C47C3A5005EBF61 /* SignInHead.swift */; };
+		7550D3B82C47D243005EBF61 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3B72C47D243005EBF61 /* ImagePicker.swift */; };
+		7550D3BA2C47E042005EBF61 /* ChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550D3B92C47E042005EBF61 /* ChallengeViewModel.swift */; };
 		75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */; };
 		75BFBC1E2C475793009305F9 /* UserChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1D2C475792009305F9 /* UserChallengeView.swift */; };
 		75BFBC212C47617A009305F9 /* createPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC202C47617A009305F9 /* createPostView.swift */; };
@@ -76,6 +85,15 @@
 		7550D3952C47AE60005EBF61 /* ProfileUpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUpdateView.swift; sourceTree = "<group>"; };
 		7550D3962C47AE60005EBF61 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		7550D3992C47B0FF005EBF61 /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
+		7550D3A12C47C1AA005EBF61 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7550D3A82C47C367005EBF61 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		7550D3AB2C47C379005EBF61 /* OnBoardingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingButton.swift; sourceTree = "<group>"; };
+		7550D3AE2C47C393005EBF61 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7550D3AF2C47C394005EBF61 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		7550D3B32C47C3A4005EBF61 /* SignUpHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpHead.swift; sourceTree = "<group>"; };
+		7550D3B42C47C3A5005EBF61 /* SignInHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInHead.swift; sourceTree = "<group>"; };
+		7550D3B72C47D243005EBF61 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7550D3B92C47E042005EBF61 /* ChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewModel.swift; sourceTree = "<group>"; };
 		75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChallengeView.swift; sourceTree = "<group>"; };
 		75BFBC1D2C475792009305F9 /* UserChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChallengeView.swift; sourceTree = "<group>"; };
 		75BFBC202C47617A009305F9 /* createPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = createPostView.swift; path = Component/createPostView.swift; sourceTree = "<group>"; };
@@ -190,6 +208,9 @@
 		752CD77A2C467F9B0089210A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				7550D3AD2C47C389005EBF61 /* Auth */,
+				7550D3A72C47C35E005EBF61 /* OnBoarding */,
+				7550D39E2C47C113005EBF61 /* LaunchScreen */,
 				7550D3912C47AE29005EBF61 /* Profile */,
 				750AF3642C47891A00C677AB /* Shop */,
 				75D5BFB42C469B23009AFEA2 /* Challenge */,
@@ -222,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				752CD7802C46815D0089210A /* ColorExt.swift */,
+				7550D3B72C47D243005EBF61 /* ImagePicker.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -244,6 +266,50 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		7550D39E2C47C113005EBF61 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7550D3A12C47C1AA005EBF61 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		7550D3A72C47C35E005EBF61 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				7550D3AA2C47C36B005EBF61 /* Component */,
+				7550D3A82C47C367005EBF61 /* OnBoardingView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		7550D3AA2C47C36B005EBF61 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7550D3AB2C47C379005EBF61 /* OnBoardingButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7550D3AD2C47C389005EBF61 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7550D3B22C47C398005EBF61 /* Component */,
+				7550D3AF2C47C394005EBF61 /* SignInView.swift */,
+				7550D3AE2C47C393005EBF61 /* SignUpView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7550D3B22C47C398005EBF61 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7550D3B42C47C3A5005EBF61 /* SignInHead.swift */,
+				7550D3B32C47C3A4005EBF61 /* SignUpHead.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		75BFBC1F2C47614A009305F9 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +325,7 @@
 				75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */,
 				75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */,
 				75BFBC1D2C475792009305F9 /* UserChallengeView.swift */,
+				7550D3B92C47E042005EBF61 /* ChallengeViewModel.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -351,6 +418,9 @@
 				Base,
 			);
 			mainGroup = 752CD7432C467ECB0089210A;
+			packageReferences = (
+				7550D3BB2C47E147005EBF61 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 752CD74D2C467ECB0089210A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -367,6 +437,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7550D3A22C47C1AA005EBF61 /* LaunchScreen.storyboard in Resources */,
 				752CD7582C467ECE0089210A /* Preview Assets.xcassets in Resources */,
 				752CD7542C467ECE0089210A /* Assets.xcassets in Resources */,
 			);
@@ -393,23 +464,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7550D3B52C47C3A5005EBF61 /* SignUpHead.swift in Sources */,
 				75BFBC1E2C475793009305F9 /* UserChallengeView.swift in Sources */,
 				750AF36D2C47942100C677AB /* ProductDetailView.swift in Sources */,
 				752CD7812C46815D0089210A /* ColorExt.swift in Sources */,
 				752CD7522C467ECB0089210A /* ContentView.swift in Sources */,
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
+				7550D3B02C47C394005EBF61 /* SignUpView.swift in Sources */,
+				7550D3B12C47C394005EBF61 /* SignInView.swift in Sources */,
 				752CD7852C46887D0089210A /* HomeView.swift in Sources */,
+				7550D3B62C47C3A5005EBF61 /* SignInHead.swift in Sources */,
+				7550D3BA2C47E042005EBF61 /* ChallengeViewModel.swift in Sources */,
 				750AF3692C478BB100C677AB /* ProductCell.swift in Sources */,
 				7550D3942C47AE4F005EBF61 /* ProfileImage.swift in Sources */,
 				750AF36B2C4791E000C677AB /* ShopDetailView.swift in Sources */,
+				7550D3A92C47C367005EBF61 /* OnBoardingView.swift in Sources */,
 				7550D3972C47AE60005EBF61 /* ProfileUpdateView.swift in Sources */,
 				752CD77E2C4680660089210A /* PostCell.swift in Sources */,
+				7550D3B82C47D243005EBF61 /* ImagePicker.swift in Sources */,
 				75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */,
 				752CD7832C4682F40089210A /* HomeHeader.swift in Sources */,
 				75BFBC212C47617A009305F9 /* createPostView.swift in Sources */,
 				750AF3662C47892E00C677AB /* ShopView.swift in Sources */,
 				752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */,
 				7550D3982C47AE60005EBF61 /* ProfileView.swift in Sources */,
+				7550D3AC2C47C379005EBF61 /* OnBoardingButton.swift in Sources */,
 				75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */,
 				75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */,
 				7550D39A2C47B0FF005EBF61 /* ShopCell.swift in Sources */,
@@ -581,6 +660,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -619,6 +699,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -765,6 +846,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7550D3BB2C47E147005EBF61 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 752CD7442C467ECB0089210A /* Project object */;
 }

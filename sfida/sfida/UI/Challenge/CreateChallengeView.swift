@@ -10,6 +10,8 @@ import SwiftUI
 struct CreateChallengeView: View {
     @State var searchText: String
     @State var content : String
+    @State private var openPhoto = false
+    @State private var image: UIImage?
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     var body: some View {
         VStack(alignment:.center){
@@ -17,24 +19,44 @@ struct CreateChallengeView: View {
                 .multilineTextAlignment(.center)
                 .foregroundColor(.primary)
                 .padding()
-            
-            Rectangle()
-                .frame(width: 200,height: 200)
-                .foregroundColor(Color.gray4)
-                .cornerRadius(20)
-                .overlay{
-                    VStack(spacing: 15){
-                        Image(systemName: "camera")
+            if openPhoto == false{
+                Button(action: {
+                    self.openPhoto = true
+                }, label: {
+                    ZStack{
+                        if openPhoto == false{
+                            Rectangle()
+                                .frame(width: 200,height: 200)
+                                .foregroundColor(Color.gray4)
+                                .cornerRadius(20)
+                                .overlay{
+                                    VStack(spacing: 15){
+                                        Image(systemName: "camera")
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .frame(width: 67,height: 60)
+                                            .foregroundColor(Color.gray3)
+                                        Text("사진 추가")
+                                            .font(.system(size: 20))
+                                            .foregroundStyle(Color.gray3)
+                                    }
+                                }
+                                .padding(.bottom,30)
+                        }
+                        
+                        Image(uiImage: image ?? .init())
                             .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 67,height: 60)
-                            .foregroundColor(Color.gray3)
-                        Text("사진 추가")
-                            .font(.system(size: 20))
-                            .foregroundStyle(Color.gray3)
+                            .frame(width: 200,height: 200)
+                            .cornerRadius(20)
+                            .onAppear{
+                                print(image)
+                            }
+                            .padding(.bottom,30)
+
                     }
-                }
-                .padding(.bottom,30)
+                })
+            }
+            
             VStack(alignment:.center,spacing: 10){
                 Text("챌린지 설명")
                     .bold()
@@ -55,6 +77,13 @@ struct CreateChallengeView: View {
                         .padding(.bottom,355)
                 }
             }
+        }
+        .sheet(isPresented: $openPhoto,onDismiss: {
+//            Task{
+//                await vm.upload(image: self.image ?? .init())
+//            }
+        }){
+            ImagePicker(image: self.$image)
         }
         .toolbar(.hidden, for: .tabBar)
         .navigationBarBackButtonHidden(true)
