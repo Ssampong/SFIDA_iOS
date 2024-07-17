@@ -24,13 +24,13 @@ struct ProfileView: View {
                         HStack {
                             Image("testprofile")
                             Spacer()
-//                            NavigationLink(destination: ProfileUpdateView()) {
-//                                Image(systemName: "pencil")
-//                                    .resizable()
-//                                    .aspectRatio(contentMode: .fit)
-//                                    .frame(height: 25)
-//                            }
-//                            .foregroundColor(.black)
+                            NavigationLink(destination: ProfileUpdateView()) {
+                                Image(systemName: "pencil")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 25)
+                            }
+                            .foregroundColor(.black)
                         }
                         .padding(.bottom, 30)
                         

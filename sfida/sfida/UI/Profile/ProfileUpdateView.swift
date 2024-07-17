@@ -27,15 +27,36 @@ struct ProfileUpdateView: View {
                 .foregroundStyle(Color.gray1)
                 .font(.system(size: 15))
                 .padding(.leading, 30)
-                .padding(.bottom)
+                .padding(.bottom,5)
             TextField("",text: $Nicname)
                 .font(.system(size: 20, weight: .semibold))
                 .padding(.leading, 35)
                 .overlay(
                     Rectangle()
-                        .frame(width: 377, height: 1)
-                        .padding(.top, 50)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 1)
+                        .padding(.top, 30)
+                        .padding(.horizontal,30)
                 )
+            
+            Spacer()
+            Button(action: {
+                
+            }, label: {
+                Rectangle()
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .cornerRadius(10)
+                    .padding(.horizontal,10)
+                    .foregroundColor(Color.Main)
+                    .overlay{
+                        Text("확인")
+                            .font(.system(size: 15,weight: .heavy))
+                            .foregroundColor(.white)
+                    }
+                    .padding(.vertical,25)
+
+            })
         }
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .tabBar)
