@@ -10,6 +10,7 @@ import SwiftUI
 enum PostCellType{
     case base
     case success
+    case notice
 }
 struct SuccessPostCell : View {
     let userName : String
@@ -21,7 +22,7 @@ struct SuccessPostCell : View {
             
             Rectangle()
                 .foregroundColor(type == .base ? .white : .blue0)
-                .frame(height: 370)
+                .frame(height: type != .notice ? 370 : 120)
                 .frame(maxWidth: .infinity)
                 .cornerRadius(10)
                 .padding(.horizontal,10)
@@ -54,12 +55,14 @@ struct SuccessPostCell : View {
                             .font(.system(size: 12))
                             .foregroundStyle(.black)
                         
-                        Image("testImage1")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(maxWidth: .infinity)
-                            .frame(height: 230)
-                            .cornerRadius(10)
+                        if type != .notice{
+                            Image("testImage1")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(maxWidth: .infinity)
+                                .frame(height: 230)
+                                .cornerRadius(10)
+                        }
                         
                         Spacer()
                     }
@@ -69,5 +72,5 @@ struct SuccessPostCell : View {
     }
 }
 #Preview {
-    SuccessPostCell(userName: "이다경", content: "안녕하세요~ 페트병 재활용 기계 직접 사용해 보았답니다~!!어려운 챌린지 미션이였는데 저는 성공했네요^^ 다들 즐거운 하루 보내세요 ㅎ", type: .success)
+    SuccessPostCell(userName: "이다경", content: "안녕하세요~ 페트병 재활용 기계 직접 사용해 보았답니다~!!어려운 챌린지 미션이였는데 저는 성공했네요^^ 다들 즐거운 하루 보내세요 ㅎ", type: .notice)
 }

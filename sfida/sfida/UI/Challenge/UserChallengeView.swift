@@ -13,7 +13,6 @@ struct UserChallengeView: View {
     @State var isOutsider = true
     @State var isOrganizer = false
     var body: some View {
-        NavigationView{
             ZStack{
                 Color.BackgroundColor.edgesIgnoringSafeArea(.all)
                 VStack{
@@ -72,7 +71,6 @@ struct UserChallengeView: View {
                 }
                 .ignoresSafeArea()
             }
-        }
         .navigationBarBackButtonHidden()
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading){
