@@ -8,16 +8,13 @@
 import SwiftUI
 import Alamofire
 
-@MainActor
-class DiaryViewModel: ObservableObject {
-//    @Published var success: Bool = false
-    
-//    func getChallenge() async throws -> Response<[DiaryResponse]> {
-//        let url = "/diary?page=\(pageRequest.page)&size=\(pageRequest.size)&email=\(email)"
+//final class RemoteChallengeService {
+//    func Challenge() async throws -> [ChallengeResponse]{
+//        let url = "/api/challenges"
 //        
 //        return try await withCheckedThrowingContinuation { continuation in
-//            AF.request( ApiContent.url + url, method: .get,interceptor: MyRequestInterceptor())
-//                .responseDecodable(of: Response<[DiaryResponse]>.self) { response in
+//            AF.request( baseUrl + url, method: .get)
+//                .responseDecodable(of: [ChallengeResponse].self) { response in
 //                    switch response.result {
 //                    case .success(let responseData):
 //                        continuation.resume(returning: responseData)
@@ -27,7 +24,37 @@ class DiaryViewModel: ObservableObject {
 //                }
 //        }
 //    }
+//    
+//}
+@MainActor
+class ChallengeViewModel: ObservableObject {
+    @Published var success = [ChallengeResponse]()
+    func Challenge() async throws -> [ChallengeResponse]{
+        let url = "/api/challenges"
+        
+        return try await withCheckedThrowingContinuation { continuation in
+            AF.request( baseUrl + url, method: .get)
+                .responseDecodable(of: [ChallengeResponse].self) { response in
+                    switch response.result {
+                    case .success(let responseData):
+                        continuation.resume(returning: responseData)
+                    case .failure(let error):
+                        continuation.resume(throwing: error)
+                    }
+                }
+        }
+    }
     
+//    func getChallenge() async {
+//        do {
+//            let response = try await Challenge()
+//            print(response)
+//        
+//        } catch {
+//            print(error)
+//        }
+//        
+//    }
 //    func upload(image: UIImage) async throws -> Response<String> {
 //        
 //        let headers: HTTPHeaders = [

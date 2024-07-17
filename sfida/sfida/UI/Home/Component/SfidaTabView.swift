@@ -18,7 +18,7 @@ struct SfidaTabView : View {
     var body: some View {
         NavigationView{
             TabView {
-                ChallengeView(searchText: "")
+                ChallengeView(searchText: "", vm: ChallengeViewModel())
                     .tabItem {
                         Image(systemName: "tray")
                         Text("챌린지")

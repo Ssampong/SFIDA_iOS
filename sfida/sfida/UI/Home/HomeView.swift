@@ -25,9 +25,9 @@ struct HomeView : View {
                         LazyVGrid(columns: columns) {
                             ForEach((0..<6), id: \.self) { count in
                                 NavigationLink {
-                                    UserChallengeView(title: "탄소 줄이기 운동!")
+                                    UserChallengeView(title: "탄소 줄이기 운동!", id: 1)
                                 } label: {
-                                    PostCell(title: "이다경 바보")
+                                    PostCell(title: "이다경 바보", imageUrl: "hello")
                                 }
                             }
                         }

@@ -12,6 +12,9 @@ struct ChallengeView: View {
     let columns = [GridItem(.fixed(120)),
                    GridItem(.fixed(120)),
                    GridItem(.fixed(120))]
+    @StateObject var vm : ChallengeViewModel
+    @State var Lists : [ChallengeResponse] = []
+
     var body: some View {
         ZStack{
             Color.BackgroundColor.edgesIgnoringSafeArea(.all)
@@ -57,16 +60,27 @@ struct ChallengeView: View {
                         
                     }
                     .background(Color.white)
-                Spacer()
+                Spacer()                                                                        
                 
                 ScrollView(showsIndicators: false){
                     LazyVGrid(columns: columns) {
-                        ForEach((0..<6), id: \.self) { count in
+                        ForEach((0..<Lists.count), id: \.self) { count in
                             NavigationLink {
-                                UserChallengeView(title: "탄소 줄이기 운동!")
+                                UserChallengeView(title: Lists[count].title, id: Lists[count].id)
                             } label: {
-                                PostCell(title: "이다경 바보")
+                                PostCell(title:Lists[count].title, imageUrl: Lists[count].image_path )
                             }
+                        }
+                    }
+                }
+                .onAppear{
+                    Task {
+                        do {
+//                            let response = try await Challenge()
+                            let response = try await vm.Challenge()
+                            Lists = response
+                        } catch {
+                            print(error)
                         }
                     }
                 }

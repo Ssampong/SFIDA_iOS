@@ -10,6 +10,7 @@ import SwiftUI
 struct UserChallengeView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     let title: String
+    let id: Int
     @State var isOutsider = false
     @State var isOrganizer = false
     var body: some View {
@@ -91,6 +92,6 @@ struct UserChallengeView: View {
         }
     }
 }
-#Preview {
-    UserChallengeView(title: "탄소 줄이기 운동")
-}
+//#Preview {
+//    UserChallengeView(title: "탄소 줄이기 운동")
+//}
