@@ -21,6 +21,7 @@
 		752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7862C468AA70089210A /* SfidaTabView.swift */; };
 		75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */; };
 		75BFBC1E2C475793009305F9 /* UserChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1D2C475792009305F9 /* UserChallengeView.swift */; };
+		75BFBC212C47617A009305F9 /* createPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC202C47617A009305F9 /* createPostView.swift */; };
 		75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */; };
 		75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		752CD7862C468AA70089210A /* SfidaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfidaTabView.swift; sourceTree = "<group>"; };
 		75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChallengeView.swift; sourceTree = "<group>"; };
 		75BFBC1D2C475792009305F9 /* UserChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChallengeView.swift; sourceTree = "<group>"; };
+		75BFBC202C47617A009305F9 /* createPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = createPostView.swift; path = Component/createPostView.swift; sourceTree = "<group>"; };
 		75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPostCell.swift; sourceTree = "<group>"; };
 		75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChallengeView.swift; path = sfida/UI/Home/Component/ChallengeView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -186,9 +188,18 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		75BFBC1F2C47614A009305F9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		75D5BFB42C469B23009AFEA2 /* Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				75BFBC1F2C47614A009305F9 /* Component */,
+				75BFBC202C47617A009305F9 /* createPostView.swift */,
 				75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */,
 				75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */,
 				75BFBC1D2C475792009305F9 /* UserChallengeView.swift */,
@@ -334,6 +345,7 @@
 				752CD77E2C4680660089210A /* PostCell.swift in Sources */,
 				75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */,
 				752CD7832C4682F40089210A /* HomeHeader.swift in Sources */,
+				75BFBC212C47617A009305F9 /* createPostView.swift in Sources */,
 				752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */,
 				75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */,
 				75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */,

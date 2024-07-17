@@ -42,7 +42,6 @@ struct CreateChallengeView: View {
                     .foregroundStyle(.black)
                 
                 ZStack{
-                    
                     TextEditor(text: $content)
                         .frame(maxWidth:.infinity,minHeight: 55, maxHeight: .infinity)
                         .frame(alignment: .center)
