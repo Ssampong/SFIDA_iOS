@@ -62,31 +62,17 @@ struct ChallengeView: View {
                     ScrollView(showsIndicators: false){
                         LazyVGrid(columns: columns) {
                             ForEach((0..<6), id: \.self) { count in
-                                PostCell(title: "이다경 바보")
+                                NavigationLink {
+                                    UserChallengeView(title: "탄소 줄이기 운동!")
+                                } label: {
+                                    PostCell(title: "이다경 바보")
+                                }
                             }
                         }
                     }
                 }
             }
         }
-//        .navigationBarBackButtonHidden(true)
-//        .toolbar{
-//            ToolbarItem(placement: .navigationBarLeading){
-//                NavigationLink {
-//                    CreateChallengeView(searchText: "", content: "")
-//                } label: {
-//                    Image(systemName: "chevron.backward")
-//                        .resizable()
-//                        .aspectRatio(contentMode: .fit)
-//                        .frame(width: 15,height: 27)
-//                    
-//                    Text("챌린지 생성")
-//                        .bold()
-//                        .foregroundStyle(.black)
-//                        .font(.system(size: 20))
-//                }
-//            }
-//        }
         .onTapGesture {
             hideKeyboard()
         }
