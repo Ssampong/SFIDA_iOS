@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "image 11.svg",
+      "filename" : "Lunch Screen Logo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "2XLogo.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "3XLogo.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

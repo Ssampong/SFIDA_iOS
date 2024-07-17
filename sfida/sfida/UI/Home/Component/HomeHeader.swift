@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeHeader : View {
-    @Binding var selectedIndex: Int
+    @State private var selectedIndex = 0
     var body: some View {
         ZStack{
             Rectangle()
@@ -61,6 +61,6 @@ struct HomeHeader : View {
     }
 }
 
-//#Preview {
-//    HomeHeader()
-//}
+#Preview {
+    HomeHeader()
+}
