@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		750AF3662C47892E00C677AB /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF3652C47892E00C677AB /* ShopView.swift */; };
-		750AF3692C478BB100C677AB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF3682C478BB100C677AB /* ProductCell.swift */; };
-		750AF36B2C4791E000C677AB /* ShopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF36A2C4791E000C677AB /* ShopDetailView.swift */; };
-		750AF36D2C47942100C677AB /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AF36C2C47942100C677AB /* ProductDetailView.swift */; };
 		752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD74F2C467ECB0089210A /* sfidaApp.swift */; };
 		752CD7522C467ECB0089210A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7512C467ECB0089210A /* ContentView.swift */; };
 		752CD7542C467ECE0089210A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752CD7532C467ECE0089210A /* Assets.xcassets */; };
@@ -23,11 +19,16 @@
 		752CD7832C4682F40089210A /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7822C4682F40089210A /* HomeHeader.swift */; };
 		752CD7852C46887D0089210A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7842C46887D0089210A /* HomeView.swift */; };
 		752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7862C468AA70089210A /* SfidaTabView.swift */; };
-		75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */; };
-		75BFBC1E2C475793009305F9 /* UserChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC1D2C475792009305F9 /* UserChallengeView.swift */; };
-		75BFBC212C47617A009305F9 /* createPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFBC202C47617A009305F9 /* createPostView.swift */; };
-		75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */; };
-		75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */; };
+		AF1B99132C46A2D80010C09A /* SignInHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B99122C46A2D80010C09A /* SignInHead.swift */; };
+		AF61096E2C478C7800202C76 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61096D2C478C7800202C76 /* ProfileImage.swift */; };
+		AF6109702C478E1D00202C76 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61096F2C478E1D00202C76 /* ProfileView.swift */; };
+		AF6109722C47920900202C76 /* ProfileUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6109712C47920900202C76 /* ProfileUpdateView.swift */; };
+		AF62C2192C4788AE00409B09 /* Launch ScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF62C2182C4788AE00409B09 /* Launch ScreenView.storyboard */; };
+		AFBA92DA2C46990F00DA5CB9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */; };
+		AFBA92DC2C46991F00DA5CB9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */; };
+		AFECDD322C475BC700461B6B /* SignUpHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFECDD312C475BC700461B6B /* SignUpHead.swift */; };
+		AFECDD392C47628800461B6B /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFECDD382C47628800461B6B /* OnBoardingView.swift */; };
+		AFECDD3C2C47636800461B6B /* OnBoardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFECDD3B2C47636800461B6B /* OnBoardingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		750AF3652C47892E00C677AB /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
-		750AF3682C478BB100C677AB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
-		750AF36A2C4791E000C677AB /* ShopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailView.swift; sourceTree = "<group>"; };
-		750AF36C2C47942100C677AB /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		752CD74C2C467ECB0089210A /* sfida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sfida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752CD74F2C467ECB0089210A /* sfidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfidaApp.swift; sourceTree = "<group>"; };
 		752CD7512C467ECB0089210A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,11 +65,17 @@
 		752CD7822C4682F40089210A /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 		752CD7842C46887D0089210A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		752CD7862C468AA70089210A /* SfidaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfidaTabView.swift; sourceTree = "<group>"; };
-		75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChallengeView.swift; sourceTree = "<group>"; };
-		75BFBC1D2C475792009305F9 /* UserChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChallengeView.swift; sourceTree = "<group>"; };
-		75BFBC202C47617A009305F9 /* createPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = createPostView.swift; path = Component/createPostView.swift; sourceTree = "<group>"; };
-		75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPostCell.swift; sourceTree = "<group>"; };
-		75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChallengeView.swift; path = sfida/UI/Home/Component/ChallengeView.swift; sourceTree = SOURCE_ROOT; };
+		AF1B99122C46A2D80010C09A /* SignInHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHead.swift; sourceTree = "<group>"; };
+		AF61096D2C478C7800202C76 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		AF61096F2C478E1D00202C76 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AF6109712C47920900202C76 /* ProfileUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUpdateView.swift; sourceTree = "<group>"; };
+		AF62C2182C4788AE00409B09 /* Launch ScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch ScreenView.storyboard"; sourceTree = "<group>"; };
+		AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		AFE53F9A2C47683900CEEAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AFECDD312C475BC700461B6B /* SignUpHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpHead.swift; sourceTree = "<group>"; };
+		AFECDD382C47628800461B6B /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		AFECDD3B2C47636800461B6B /* OnBoardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,25 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		750AF3642C47891A00C677AB /* Shop */ = {
-			isa = PBXGroup;
-			children = (
-				750AF3672C478A2200C677AB /* Component */,
-				750AF3652C47892E00C677AB /* ShopView.swift */,
-				750AF36A2C4791E000C677AB /* ShopDetailView.swift */,
-				750AF36C2C47942100C677AB /* ProductDetailView.swift */,
-			);
-			path = Shop;
-			sourceTree = "<group>";
-		};
-		750AF3672C478A2200C677AB /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				750AF3682C478BB100C677AB /* ProductCell.swift */,
-			);
-			path = Component;
-			sourceTree = "<group>";
-		};
 		752CD7432C467ECB0089210A = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +126,7 @@
 		752CD74E2C467ECB0089210A /* sfida */ = {
 			isa = PBXGroup;
 			children = (
+				AFE53F9A2C47683900CEEAC1 /* Info.plist */,
 				752CD77F2C4681440089210A /* Util */,
 				752CD77A2C467F9B0089210A /* UI */,
 				752CD74F2C467ECB0089210A /* sfidaApp.swift */,
@@ -181,8 +166,10 @@
 		752CD77A2C467F9B0089210A /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				750AF3642C47891A00C677AB /* Shop */,
-				75D5BFB42C469B23009AFEA2 /* Challenge */,
+				AF61096B2C478C0800202C76 /* Profile */,
+				AF166E7C2C476A9A00C617C8 /* LaunchScreen */,
+				AFECDD362C4761E100461B6B /* OnBoarding */,
+				AFBA92D72C4698F100DA5CB9 /* Auth */,
 				752CD77B2C467FA20089210A /* Home */,
 			);
 			path = UI;
@@ -203,7 +190,6 @@
 				752CD77D2C4680660089210A /* PostCell.swift */,
 				752CD7822C4682F40089210A /* HomeHeader.swift */,
 				752CD7862C468AA70089210A /* SfidaTabView.swift */,
-				75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -216,23 +202,66 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		75BFBC1F2C47614A009305F9 /* Component */ = {
+		AF166E7C2C476A9A00C617C8 /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
+				AF62C2182C4788AE00409B09 /* Launch ScreenView.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		AF61096B2C478C0800202C76 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AF61096C2C478C1900202C76 /* Component */,
+				AF61096F2C478E1D00202C76 /* ProfileView.swift */,
+				AF6109712C47920900202C76 /* ProfileUpdateView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AF61096C2C478C1900202C76 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AF61096D2C478C7800202C76 /* ProfileImage.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
 		};
-		75D5BFB42C469B23009AFEA2 /* Challenge */ = {
+		AFBA92D72C4698F100DA5CB9 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				75BFBC1F2C47614A009305F9 /* Component */,
-				75BFBC202C47617A009305F9 /* createPostView.swift */,
-				75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */,
-				75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */,
-				75BFBC1D2C475792009305F9 /* UserChallengeView.swift */,
+				AFBA92D82C4698FB00DA5CB9 /* Compoent */,
+				AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */,
+				AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */,
 			);
-			path = Challenge;
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AFBA92D82C4698FB00DA5CB9 /* Compoent */ = {
+			isa = PBXGroup;
+			children = (
+				AF1B99122C46A2D80010C09A /* SignInHead.swift */,
+				AFECDD312C475BC700461B6B /* SignUpHead.swift */,
+			);
+			path = Compoent;
+			sourceTree = "<group>";
+		};
+		AFECDD362C4761E100461B6B /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				AFECDD3A2C47635800461B6B /* Component */,
+				AFECDD382C47628800461B6B /* OnBoardingView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		AFECDD3A2C47635800461B6B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AFECDD3B2C47636800461B6B /* OnBoardingButton.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				752CD7582C467ECE0089210A /* Preview Assets.xcassets in Resources */,
+				AF62C2192C4788AE00409B09 /* Launch ScreenView.storyboard in Resources */,
 				752CD7542C467ECE0089210A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,22 +395,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75BFBC1E2C475793009305F9 /* UserChallengeView.swift in Sources */,
-				750AF36D2C47942100C677AB /* ProductDetailView.swift in Sources */,
+				AFBA92DC2C46991F00DA5CB9 /* SignInView.swift in Sources */,
+				AF6109722C47920900202C76 /* ProfileUpdateView.swift in Sources */,
 				752CD7812C46815D0089210A /* ColorExt.swift in Sources */,
+				AFECDD3C2C47636800461B6B /* OnBoardingButton.swift in Sources */,
+				AFECDD322C475BC700461B6B /* SignUpHead.swift in Sources */,
 				752CD7522C467ECB0089210A /* ContentView.swift in Sources */,
+				AF1B99132C46A2D80010C09A /* SignInHead.swift in Sources */,
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
+				AF6109702C478E1D00202C76 /* ProfileView.swift in Sources */,
 				752CD7852C46887D0089210A /* HomeView.swift in Sources */,
-				750AF3692C478BB100C677AB /* ProductCell.swift in Sources */,
-				750AF36B2C4791E000C677AB /* ShopDetailView.swift in Sources */,
+				AFBA92DA2C46990F00DA5CB9 /* SignUpView.swift in Sources */,
+				AF61096E2C478C7800202C76 /* ProfileImage.swift in Sources */,
 				752CD77E2C4680660089210A /* PostCell.swift in Sources */,
-				75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */,
+				AFECDD392C47628800461B6B /* OnBoardingView.swift in Sources */,
 				752CD7832C4682F40089210A /* HomeHeader.swift in Sources */,
-				75BFBC212C47617A009305F9 /* createPostView.swift in Sources */,
-				750AF3662C47892E00C677AB /* ShopView.swift in Sources */,
 				752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */,
-				75BFBC1C2C4748B8009305F9 /* CreateChallengeView.swift in Sources */,
-				75D5BFB22C469521009AFEA2 /* SuccessPostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,12 +572,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sfida/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sfida/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch ScreenView.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -578,12 +610,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sfida/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sfida/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch ScreenView.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
