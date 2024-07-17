@@ -13,60 +13,80 @@ struct ChallengeView: View {
                    GridItem(.fixed(120)),
                    GridItem(.fixed(120))]
     var body: some View {
-        ZStack{
-            Color.BackgroundColor.edgesIgnoringSafeArea(.all)
-            
-            VStack{
-                Rectangle()
-                    .frame(minWidth: 100)
-                    .frame(height: 98)
-                    .foregroundColor(.white)
-                    .overlay{
-                        VStack{
-                            HStack{
-                                Image("SFIDA")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width:64,height:16)
-                                
-                                Spacer()
-                                
-                                //navigationLink
-                                Image("plus")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width:16,height:16)
-                                
-                            }
-                            .padding(10)
-                            HStack{
-                                Image(systemName: "magnifyingglass")
-                                
-                                TextField("Search", text: $searchText)
-                                    .foregroundColor(.primary)
-                            }
-                            .padding(.vertical, 8)
-                            .padding(.horizontal, 8)
-                            .background(
-                                RoundedRectangle(cornerRadius: 10)
-                                    .fill(Color(.systemGray6))
-                            )
-                            .padding(.horizontal,10)
-                            .padding(.bottom,5)
-                        }
-                        
-                    }
-                Spacer()
+        NavigationView{
+            ZStack{
+                Color.BackgroundColor.edgesIgnoringSafeArea(.all)
                 
-                ScrollView(showsIndicators: false){
-                    LazyVGrid(columns: columns) {
-                        ForEach((0..<6), id: \.self) { count in
-                            PostCell(title: "이다경 바보")
+                VStack{
+                    Rectangle()
+                        .frame(minWidth: 100)
+                        .frame(height: 98)
+                        .foregroundColor(.white)
+                        .overlay{
+                            VStack{
+                                HStack{
+                                    Image("SFIDA")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width:64,height:16)
+                                    
+                                    Spacer()
+                                    
+                                    NavigationLink {
+                                        CreateChallengeView(searchText: "", content: "")
+                                    } label: {
+                                        Image("plus")
+                                    }
+                                }
+                                .padding(10)
+                                
+                                HStack{
+                                    Image(systemName: "magnifyingglass")
+                                    
+                                    TextField("Search", text: $searchText)
+                                        .foregroundColor(.primary)
+                                }
+                                .padding(.vertical, 8)
+                                .padding(.horizontal, 8)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .fill(Color(.systemGray6))
+                                )
+                                .padding(.horizontal,10)
+                                .padding(.bottom,5)
+                            }
+                            
+                        }
+                    Spacer()
+                    
+                    ScrollView(showsIndicators: false){
+                        LazyVGrid(columns: columns) {
+                            ForEach((0..<6), id: \.self) { count in
+                                PostCell(title: "이다경 바보")
+                            }
                         }
                     }
                 }
             }
         }
+//        .navigationBarBackButtonHidden(true)
+//        .toolbar{
+//            ToolbarItem(placement: .navigationBarLeading){
+//                NavigationLink {
+//                    CreateChallengeView(searchText: "", content: "")
+//                } label: {
+//                    Image(systemName: "chevron.backward")
+//                        .resizable()
+//                        .aspectRatio(contentMode: .fit)
+//                        .frame(width: 15,height: 27)
+//                    
+//                    Text("챌린지 생성")
+//                        .bold()
+//                        .foregroundStyle(.black)
+//                        .font(.system(size: 20))
+//                }
+//            }
+//        }
         .onTapGesture {
             hideKeyboard()
         }

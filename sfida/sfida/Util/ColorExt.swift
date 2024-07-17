@@ -13,6 +13,7 @@ extension Color {
     static let gray1 = Color(hex: "#797979")
     static let gray2 = Color(hex: "#9F9F9F")
     static let gray3 = Color(hex: "#C4C4C4")
+    static let gray4 = Color(hex: "F3F3F3")
     static let Main = Color(hex: "#0094FF")
     static let BackgroundColor = Color(hex: "#FAFAFA")
     static let Background = Color(hex: "FCFCFC")
