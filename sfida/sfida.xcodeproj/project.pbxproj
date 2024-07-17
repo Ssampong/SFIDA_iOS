@@ -43,6 +43,7 @@
 		75D5BFB62C469B66009AFEA2 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */; };
 		75F24D9F2C47F3950018A5F2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 75F24D9E2C47F3950018A5F2 /* Alamofire */; };
 		75F24DA12C47F3950018A5F2 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 75F24DA02C47F3950018A5F2 /* AlamofireDynamic */; };
+		75F24DA42C4802E20018A5F2 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F24DA32C4802E20018A5F2 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		75BFBC202C47617A009305F9 /* createPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = createPostView.swift; path = Component/createPostView.swift; sourceTree = "<group>"; };
 		75D5BFB12C469521009AFEA2 /* SuccessPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPostCell.swift; sourceTree = "<group>"; };
 		75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChallengeView.swift; path = sfida/UI/Home/Component/ChallengeView.swift; sourceTree = SOURCE_ROOT; };
+		75F24DA32C4802E20018A5F2 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,14 +326,23 @@
 		75D5BFB42C469B23009AFEA2 /* Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				75F24DA22C47F8190018A5F2 /* ViewModel */,
 				75BFBC1F2C47614A009305F9 /* Component */,
 				75BFBC202C47617A009305F9 /* createPostView.swift */,
 				75D5BFB52C469B66009AFEA2 /* ChallengeView.swift */,
 				75BFBC1B2C4748B8009305F9 /* CreateChallengeView.swift */,
 				75BFBC1D2C475792009305F9 /* UserChallengeView.swift */,
-				7550D3B92C47E042005EBF61 /* ChallengeViewModel.swift */,
+				75F24DA32C4802E20018A5F2 /* Secret.swift */,
 			);
 			path = Challenge;
+			sourceTree = "<group>";
+		};
+		75F24DA22C47F8190018A5F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7550D3B92C47E042005EBF61 /* ChallengeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +490,7 @@
 				752CD7522C467ECB0089210A /* ContentView.swift in Sources */,
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
 				7550D3B02C47C394005EBF61 /* SignUpView.swift in Sources */,
+				75F24DA42C4802E20018A5F2 /* Secret.swift in Sources */,
 				7550D3B12C47C394005EBF61 /* SignInView.swift in Sources */,
 				752CD7852C46887D0089210A /* HomeView.swift in Sources */,
 				7550D3B62C47C3A5005EBF61 /* SignInHead.swift in Sources */,
