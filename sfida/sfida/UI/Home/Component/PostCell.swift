@@ -18,7 +18,6 @@ struct PostCell : View {
             Text(title)
                 .bold()
                 .font(.system(size: 12))
-                .foregroundStyle(.black)
         }
     }
 }
