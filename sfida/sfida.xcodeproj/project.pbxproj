@@ -19,6 +19,7 @@
 		752CD7832C4682F40089210A /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7822C4682F40089210A /* HomeHeader.swift */; };
 		752CD7852C46887D0089210A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7842C46887D0089210A /* HomeView.swift */; };
 		752CD7872C468AA70089210A /* SfidaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752CD7862C468AA70089210A /* SfidaTabView.swift */; };
+		AF166E7E2C476AAD00C617C8 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF166E7D2C476AAD00C617C8 /* LaunchScreenView.swift */; };
 		AF1B99132C46A2D80010C09A /* SignInHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B99122C46A2D80010C09A /* SignInHead.swift */; };
 		AFBA92DA2C46990F00DA5CB9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */; };
 		AFBA92DC2C46991F00DA5CB9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */; };
@@ -61,6 +62,7 @@
 		752CD7822C4682F40089210A /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 		752CD7842C46887D0089210A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		752CD7862C468AA70089210A /* SfidaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfidaTabView.swift; sourceTree = "<group>"; };
+		AF166E7D2C476AAD00C617C8 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		AF1B99122C46A2D80010C09A /* SignInHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHead.swift; sourceTree = "<group>"; };
 		AFBA92D92C46990F00DA5CB9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		AFBA92DB2C46991F00DA5CB9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		752CD77A2C467F9B0089210A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				AF166E7C2C476A9A00C617C8 /* LaunchScreen */,
 				AFECDD362C4761E100461B6B /* OnBoarding */,
 				AFBA92D72C4698F100DA5CB9 /* Auth */,
 				752CD77B2C467FA20089210A /* Home */,
@@ -190,6 +193,14 @@
 				752CD7802C46815D0089210A /* ColorExt.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		AF166E7C2C476A9A00C617C8 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AF166E7D2C476AAD00C617C8 /* LaunchScreenView.swift */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 		AFBA92D72C4698F100DA5CB9 /* Auth */ = {
@@ -367,6 +378,7 @@
 				752CD7502C467ECB0089210A /* sfidaApp.swift in Sources */,
 				752CD7852C46887D0089210A /* HomeView.swift in Sources */,
 				AFBA92DA2C46990F00DA5CB9 /* SignUpView.swift in Sources */,
+				AF166E7E2C476AAD00C617C8 /* LaunchScreenView.swift in Sources */,
 				752CD77E2C4680660089210A /* PostCell.swift in Sources */,
 				AFECDD392C47628800461B6B /* OnBoardingView.swift in Sources */,
 				752CD7832C4682F40089210A /* HomeHeader.swift in Sources */,
